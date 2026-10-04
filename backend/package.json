@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "auth-crud",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -21,6 +21,7 @@
     "express": "^5.2.1",
     "joi": "^18.2.9",
     "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.7.0",
     "nodemailer": "^10.0.14"
   }
 }
