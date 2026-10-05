@@ -15,8 +15,13 @@ const ForgotPwd = {
     }
 };
 
+const ResetPwd = {
+    subject: "Your Password Updated successfully",
+    text: "You requested a password reset. After complete authorization now your password has been updated successfully next time don't forgot your password."
+};
 
 
-const authEmailConstants = { OnBoard, SignIn, ForgotPwd };
+
+const authEmailConstants = { OnBoard, SignIn, ForgotPwd, ResetPwd };
 
 module.exports = authEmailConstants;
